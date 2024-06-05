@@ -1,0 +1,9 @@
+main()
+{
+    int i = 0;
+    N= read();
+    do{
+        i = i+1;
+        write(i);
+    }while(i<N);
+}

@@ -1,0 +1,19 @@
+main(){
+    int choice,N,i,j,sum;
+    sum = 0;
+    choice = read();
+    N = read();
+    if(choice > 1){
+        for(i=0;i<=N;i=i+1){
+            if(i%2 == 1){
+               sum = sum+i;
+            }
+        }
+    }
+    write(sum);
+    int i = 0;
+    do{
+        i = i+1;
+        write(i);
+    }while(i<5);
+}

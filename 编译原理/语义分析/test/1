@@ -1,0 +1,13 @@
+main() {
+       int x,y;
+       x = 9;
+       y = 6;
+       if (x>=y){
+            while(y<=x){
+            y = y + 1;
+            write(y);
+            }
+       }
+       else {x=0;}
+       write(x);
+}
