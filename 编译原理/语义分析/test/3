@@ -1,9 +1,0 @@
-//if and while,阶乘
-main()
-{
-    int i=0;
-    while(i<2){
-    i=i+1;
-    write(i);
-    }
-}
